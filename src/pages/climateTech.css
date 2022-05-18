@@ -1,0 +1,30 @@
+.businessModel {
+  display: flex;
+  min-height: 75vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.businessModel .businessDisplay {
+  height: 100%;
+  background: rgb(24, 88, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  font-size: 30px;
+  padding-bottom: 20px;
+  background-size: cover;
+  min-height: 100vh;
+}
+.businessModel ul {
+  padding-left: 20px !important;
+}
+.businessModel li {
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .businessModel .businessDisplay {
+    min-height: 50vh;
+  }
+}
