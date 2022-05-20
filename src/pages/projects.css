@@ -57,54 +57,53 @@
   -webkit-animation: pulse 1.5s infinite ease-out 0.3s;
   animation: pulse 1.5s infinite ease-out 0.3s;
 }
-.dot-1 {
+  .dot-1 {
   top: 34%;
   left: 57.5%;
-}
-.dot-2 {
+} 
+ .dot-2 {
   top: 49%;
   left: 63%;
-}
+} 
 .dot-3 {
   top: 51%;
   left: 63.5%;
-}
-.dot-4 {
+} 
+ .dot-4 {
   top: 54%;
   left: 63%;
-}
-.dot-5 {
+} 
+ .dot-5 {
   top: 62%;
   left: 79%;
-}
-.dot-6 {
+}  
+  .dot-6 {
   top: 56%;
   left: 77%;
-}
-.dot-7 {
+}  
+  .dot-7 {
   top: 41%;
   left: 52%;
-}
-.dot-8 {
+} 
+ .dot-8 {
   top: 50%;
   left: 69%;
-}
-.dot-9 {
+} 
+ .dot-9 {
   top: 54%;
   left: 69%;
-}
-.dot-10 {
+}  
+ .dot-10 {
   top: 53%;
   left: 67.5%;
-}
-.dot-11 {
-  top: 45%;
-  left: 61.5%;
-}
+}  .dot-11 {
+  top: 58%;
+  left: 75%;
+}  
 .dot-12 {
   top: 47%;
   left: 73%;
-}
+} 
 .dot-13 {
   top: 50%;
   left: 74%;
@@ -112,11 +111,12 @@
 .dot-14 {
   top: 29%;
   left: 47%;
-}
+} 
+
 @media (max-width: 768px) {
   .rownew{
     flex-direction: column;
-  }
+  } 
 }
 @media (min-width: 768px) {
   .dot {
