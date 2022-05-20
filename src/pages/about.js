@@ -72,7 +72,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="9"
+                      data-to="3"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -93,7 +93,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="11"
+                      data-to="18"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -135,7 +135,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="35"
+                      data-to="55"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -156,7 +156,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="100"
+                      data-to="175"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -177,7 +177,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="6"
+                      data-to="8"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -199,7 +199,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="5"
+                      data-to="10"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >
@@ -220,7 +220,7 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="300"
+                      data-to="700"
                       data-speed="5000"
                       data-refresh-interval="50"
                     >

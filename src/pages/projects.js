@@ -24,7 +24,7 @@ class services extends Component {
               }}
               className="row animate-box col-xs-12 col-md-12 col-lg-12"
             >
-              <div className="projectBox col-xs-11 col-md-3">
+              <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
                   <div className="projectHeader">Karnataka, India</div>
                   <div className="projectNumber">1.5 MW</div>
@@ -36,7 +36,7 @@ class services extends Component {
                   </div>
                 </div>
               </div>
-              <div className="projectBox col-xs-11 col-md-3">
+              <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
                   <div className="projectHeader">
                     Osmanabad, Maharashtra, India
@@ -50,9 +50,11 @@ class services extends Component {
                   </div>
                 </div>
               </div>
-              <div className="projectBox col-xs-11 col-md-3">
+              <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
-                  <div className="projectHeader">Solapur, Maharashtra, India</div>
+                  <div className="projectHeader">
+                    Solapur, Maharashtra, India
+                  </div>
                   <div className="projectNumber">14 MWp</div>
                   <div className="projectDetails">
                     <p>
@@ -62,7 +64,47 @@ class services extends Component {
                   </div>
                 </div>
               </div>
-              <div className="projectBox col-xs-11 col-md-3">
+              <div className="projectBox pb col-xs-11 col-md-3">
+                <div className="projectTile">
+                  <div className="projectHeader">Patan, Gujarat, India</div>
+                  <div className="projectNumber">1.5 MW</div>
+                  <div className="projectDetails">
+                    <p>
+                      <strong>2.25</strong>Mn Units
+                    </p>
+                    <p>C&#38;I Rooftop</p>
+                  </div>
+                </div>
+              </div>
+              <div className="projectBox pb col-xs-11 col-md-3">
+                <div className="projectTile">
+                  <div className="projectHeader">
+                    Surendra Nagar, Gujarat, India
+                  </div>
+                  <div className="projectNumber">21 MWp</div>
+                  <div className="projectDetails">
+                    <p>
+                      <strong>35</strong>Mn Units
+                    </p>
+                    <p>Ground Mounted Utility Scale</p>
+                  </div>
+                </div>
+              </div>
+              <div className="projectBox pb col-xs-11 col-md-3">
+                <div className="projectTile">
+                  <div className="projectHeader">
+                    Mothara Kutch, Gujarat, India
+                  </div>
+                  <div className="projectNumber">14 MWp</div>
+                  <div className="projectDetails">
+                    <p>
+                      <strong>22.5</strong>Mn Units
+                    </p>
+                    <p>Ground Mounted Utility Scale</p>
+                  </div>
+                </div>
+              </div>
+              <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
                   <div className="projectHeader">Singapore</div>
                   <div className="projectNumber">100 KW</div>
@@ -99,32 +141,6 @@ class services extends Component {
                 <div className="projectBox col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">
-                      Oman Airport, Shalala, Oman
-                    </div>
-                    <div className="projectNumber">4.8 MW</div>
-                    <div className="projectDetails">
-                      <p>
-                        <strong>7.8</strong>Mn Units
-                      </p>
-                      <p>Rooftop</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="projectBox col-xs-12 col-md-4">
-                  <div className="projectTile">
-                    <div className="projectHeader">UAE</div>
-                    <div className="projectNumber">15 MW</div>
-                    <div className="projectDetails">
-                      <p>
-                        <strong>2.25</strong>Mn Units
-                      </p>
-                      <p>C&#38;I Rooftop</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="projectBox col-xs-12 col-md-4">
-                  <div className="projectTile">
-                    <div className="projectHeader">
                       Mothara Kutch, Gujarat, India
                     </div>
                     <div className="projectNumber">20 MW</div>
@@ -136,8 +152,6 @@ class services extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-xs-12 col-md-10">
                 <div className="projectBox col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">
@@ -152,6 +166,35 @@ class services extends Component {
                     </div>
                   </div>
                 </div>
+                <div className="projectBox col-xs-12 col-md-4">
+                  <div className="projectTile">
+                    <div className="projectHeader">
+                      Oman Airport, Shalala, Oman
+                    </div>
+                    <div className="projectNumber">4.8 MW</div>
+                    <div className="projectDetails">
+                      <p>
+                        <strong>7.8</strong>Mn Units
+                      </p>
+                      <p>Rooftop</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-md-10">
+                <div className="projectBox col-xs-12 col-md-4">
+                  <div className="projectTile">
+                    <div className="projectHeader">UAE</div>
+                    <div className="projectNumber">15 MW</div>
+                    <div className="projectDetails">
+                      <p>
+                        <strong>2.25</strong>Mn Units
+                      </p>
+                      <p>C&#38;I Rooftop</p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="projectBox col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">
