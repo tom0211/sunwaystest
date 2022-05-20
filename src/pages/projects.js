@@ -14,7 +14,7 @@ class services extends Component {
         >
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-              <h2>Under Construction</h2>
+              <h2>Operational / Under Construction</h2>
             </div>
             <div
               style={{
@@ -67,24 +67,22 @@ class services extends Component {
               <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
                   <div className="projectHeader">Patan, Gujarat, India</div>
-                  <div className="projectNumber">1.5 MW</div>
+                  <div className="projectNumber">10 MWp</div>
                   <div className="projectDetails">
                     <p>
-                      <strong>2.25</strong>Mn Units
+                      <strong>17</strong>Mn Units
                     </p>
-                    <p>C&#38;I Rooftop</p>
+                    <p>Ground Mounted Utility Scale</p>
                   </div>
                 </div>
               </div>
               <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
-                  <div className="projectHeader">
-                    Surendra Nagar, Gujarat, India
-                  </div>
-                  <div className="projectNumber">21 MWp</div>
+                  <div className="projectHeader">Bhadrada, Gujarat, India</div>
+                  <div className="projectNumber">5 MWp</div>
                   <div className="projectDetails">
                     <p>
-                      <strong>35</strong>Mn Units
+                      <strong>8.5</strong>Mn Units
                     </p>
                     <p>Ground Mounted Utility Scale</p>
                   </div>
@@ -95,10 +93,10 @@ class services extends Component {
                   <div className="projectHeader">
                     Mothara Kutch, Gujarat, India
                   </div>
-                  <div className="projectNumber">14 MWp</div>
+                  <div className="projectNumber">5 MWp</div>
                   <div className="projectDetails">
                     <p>
-                      <strong>22.5</strong>Mn Units
+                      <strong>8.5</strong>Mn Units
                     </p>
                     <p>Ground Mounted Utility Scale</p>
                   </div>
@@ -106,7 +104,7 @@ class services extends Component {
               </div>
               <div className="projectBox pb col-xs-11 col-md-3">
                 <div className="projectTile">
-                  <div className="projectHeader">Singapore</div>
+                  <div className="projectHeader">NTU, Singapore</div>
                   <div className="projectNumber">100 KW</div>
                   <div className="projectDetails">
                     <p>
@@ -137,36 +135,38 @@ class services extends Component {
               }}
               className="row animate-box col-xs-12 col-md-12 col-lg-12"
             >
-              <div className="col-xs-12 col-md-10">
-                <div className="projectBox col-xs-12 col-md-4">
+              <div className="rownew col-xs-12 col-md-10">
+                <div className="projectBox pb col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">
-                      Mothara Kutch, Gujarat, India
+                      Nagpur, Maharashtra, India
                     </div>
-                    <div className="projectNumber">20 MW</div>
+                    <div className="projectNumber">65 MWp</div>
                     <div className="projectDetails">
                       <p>
-                        <strong>34</strong>Mn Units
+                        <strong>110</strong>Mn Units
                       </p>
-                      <p>Ground Mounted Utility Scale</p>
+                      <p style={{ fontSize: 14 }}>
+                        Ground Mounted Open Access / Group Captive
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div className="projectBox col-xs-12 col-md-4">
+                <div className="projectBox pb col-xs-12 col-md-4">
                   <div className="projectTile">
-                    <div className="projectHeader">
-                      Vaku Kutch, Gujarat, India
-                    </div>
-                    <div className="projectNumber">10 MW</div>
+                    <div className="projectHeader">Maharashtra, India</div>
+                    <div className="projectNumber">75 MWp</div>
                     <div className="projectDetails">
                       <p>
-                        <strong>17</strong>Mn Units
+                        <strong>128</strong>Mn Units
                       </p>
-                      <p>Ground Mounted Utility Scale</p>
+                      <p style={{ fontSize: 14 }}>
+                        Ground Mounted Open Access / Group Captive
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div className="projectBox col-xs-12 col-md-4">
+                <div className="projectBox pb col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">
                       Oman Airport, Shalala, Oman
@@ -181,43 +181,23 @@ class services extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-md-10">
+              <div
+                className="col-xs-12 col-md-10"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  flexWrap: "wrap",
+                }}
+              >
                 <div className="projectBox col-xs-12 col-md-4">
                   <div className="projectTile">
                     <div className="projectHeader">UAE</div>
                     <div className="projectNumber">15 MW</div>
                     <div className="projectDetails">
                       <p>
-                        <strong>2.25</strong>Mn Units
+                        <strong>25.5</strong>Mn Units
                       </p>
                       <p>C&#38;I Rooftop</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="projectBox col-xs-12 col-md-4">
-                  <div className="projectTile">
-                    <div className="projectHeader">
-                      Surendra Nagar, Gujarat, India
-                    </div>
-                    <div className="projectNumber">20 MW</div>
-                    <div className="projectDetails">
-                      <p>
-                        <strong>34</strong>Mn Units
-                      </p>
-                      <p>Ground Mounted Utility Scale</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="projectBox col-xs-12 col-md-4">
-                  <div className="projectTile">
-                    <div className="projectHeader">Patan, Gujarat, India</div>
-                    <div className="projectNumber">20 MW</div>
-                    <div className="projectDetails">
-                      <p>
-                        <strong>34</strong>Mn Units
-                      </p>
-                      <p>Ground Mounted Utility Scale</p>
                     </div>
                   </div>
                 </div>

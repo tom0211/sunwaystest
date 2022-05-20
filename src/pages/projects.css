@@ -22,7 +22,12 @@
   max-width: 1280px;
   margin: 0 auto;
 }
-
+.rownew{
+  
+    display: flex;
+    justify-content: center;
+  
+}
 .dot {
   width: 9px;
   height: 9px;
@@ -108,11 +113,17 @@
   top: 29%;
   left: 47%;
 }
+@media (max-width: 768px) {
+  .rownew{
+    flex-direction: column;
+  }
+}
 @media (min-width: 768px) {
   .dot {
     width: 16px;
     height: 16px;
   }
+ 
   .dot:before {
     width: 4px;
     height: 4px;
