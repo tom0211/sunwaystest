@@ -73,13 +73,13 @@ class about extends Component {
                       className="counter js-counter"
                       data-from="0"
                       data-to="3"
-                      data-speed="5000"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       10
                     </span>
                     <span id="title" className="counter-label">
-                      Countries
+                      Plus Countries
                     </span>
                   </div>
                 </div>
@@ -93,14 +93,14 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="18"
-                      data-speed="5000"
+                      data-to="20"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       15
                     </span>
                     <span id="title" className="counter-label">
-                      Projects
+                      Plus Projects
                     </span>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ class about extends Component {
                       className="counter js-counter"
                       data-from="0"
                       data-to="5"
-                      data-speed="5000"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       400
@@ -135,14 +135,14 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="55"
-                      data-speed="5000"
+                      data-to="250"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       10
                     </span>
                     <span id="title" className="counter-label">
-                      MW Under Construction
+                      MW Existing Projects
                     </span>
                   </div>
                 </div>
@@ -156,8 +156,8 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="175"
-                      data-speed="5000"
+                      data-to="750"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       10
@@ -178,7 +178,7 @@ class about extends Component {
                       className="counter js-counter"
                       data-from="0"
                       data-to="8"
-                      data-speed="5000"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       15
@@ -200,7 +200,7 @@ class about extends Component {
                       className="counter js-counter"
                       data-from="0"
                       data-to="10"
-                      data-speed="5000"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       5
@@ -220,8 +220,8 @@ class about extends Component {
                       id="counter"
                       className="counter js-counter"
                       data-from="0"
-                      data-to="700"
-                      data-speed="5000"
+                      data-to="1500"
+                      data-speed="3000"
                       data-refresh-interval="50"
                     >
                       15
