@@ -6,7 +6,7 @@ import lokendra from "../images/lokendra.jpeg";
 import rooftop from "../images/rooftop.jpg";
 import solar from "../images/solar.jpg";
 import bhadra from "../images/bhadra2.jpg";
-import manish from "../images/manish.jpeg";
+// import manish from "../images/manish.jpeg";
 import subodh from "../images/subodh.jpg";
 import anil from "../images/anil.jpeg";
 import murugan from "../images/murugan.png"

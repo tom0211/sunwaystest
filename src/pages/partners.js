@@ -211,7 +211,7 @@ class partners extends Component {
           </div>
         </div>
 
-        <div className="gtco-container gtco-section">
+        <div className="gtco-container gtco-section" style={{display: 'none'}}>
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
               <h2>Harsha Abakus Solar</h2>
