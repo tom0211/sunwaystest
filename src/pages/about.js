@@ -9,7 +9,11 @@ import bhadra from "../images/bhadra2.jpg";
 import manish from "../images/manish.jpeg";
 import subodh from "../images/subodh.jpg";
 import anil from "../images/anil.jpeg";
-import tim from "../images/tim.jpeg";
+import murugan from "../images/murugan.png"
+import dilip from "../images/dilip.webp"
+import vikram from "../images/vikram.png"
+import anandaraj from "../images/anandaraj.png"
+import tim from "../images/anandaraj.webp"
 import "./about.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faToolbox } from "@fortawesome/free-solid-svg-icons";
@@ -401,7 +405,7 @@ class about extends Component {
               }}
               className="row mobileFlexWrap"
             >
-              <div
+              {/* <div
                 className=" col-xs-12 animate-box"
                 data-animate-effect="fadeIn"
               >
@@ -415,8 +419,8 @@ class about extends Component {
                     </label>
                   </p>
                 </div>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className=" col-xs-12 animate-box"
                 data-animate-effect="fadeIn"
               >
@@ -430,7 +434,7 @@ class about extends Component {
                     </label>
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div
                 className=" col-xs-12 animate-box"
                 data-animate-effect="fadeIn"
@@ -438,7 +442,7 @@ class about extends Component {
                 <div className="gtco-staff">
                   <img src={bhadra} alt="" />
                   <h3>Bhadra Kanaiya</h3>
-                  <strong className="role">Co-Founder</strong>
+                  <strong className="role">Founder & CEO</strong>
                   <p className="LearnMore">
                     <label className="LearnFounder" htmlFor="bhadra">
                       Learn More
@@ -451,26 +455,57 @@ class about extends Component {
                 data-animate-effect="fadeIn"
               >
                 <div className="gtco-staff">
-                  <img src={manish} alt="" />
-                  <h3>Manish Begrajka</h3>
-                  <strong className="role">Co-Founder</strong>
+                  <img src={murugan} alt="" />
+                  <h3>Murugan Sankaran</h3>
+                  <strong className="role">Investment Director, Lighthouse</strong>
                   <p className="LearnMore">
-                    <label className="LearnFounder" htmlFor="manish">
+                    <label className="LearnFounder" htmlFor="murugan">
                       Learn More
                     </label>
                   </p>
                 </div>
               </div>
-              <div
+              
+             <div
                 className=" col-xs-12 animate-box"
                 data-animate-effect="fadeIn"
               >
                 <div className="gtco-staff">
-                  <img src={lokendra} alt="" />
-                  <h3>Lokendra Jain</h3>
-                  <strong className="role">Advisor</strong>
+                  <img src={dilip} alt="" />
+                  <h3>Dilip Kumar</h3>
+                  <strong className="role">Director Strategy</strong>
                   <p className="LearnMore">
-                    <label className="LearnFounder" htmlFor="lokendra">
+                    <label className="LearnFounder" htmlFor="dilip">
+                      Learn More
+                    </label>
+                  </p>
+                </div>
+              </div>
+               <div
+                className=" col-xs-12 animate-box"
+                data-animate-effect="fadeIn"
+              >
+                <div className="gtco-staff">
+                  <img src={vikram} alt="" />
+                  <h3>Vikram Shetty</h3>
+                  <strong className="role">Director- Project</strong>
+                  <p className="LearnMore">
+                    <label className="LearnFounder" htmlFor="vikram">
+                      Learn More
+                    </label>
+                  </p>
+                </div>
+              </div>
+               <div
+                className=" col-xs-12 animate-box"
+                data-animate-effect="fadeIn"
+              >
+                <div className="gtco-staff">
+                  <img src={anandaraj} alt="" />
+                  <h3>Anandaraj</h3>
+                  <strong className="role">Director- Asset Management</strong>
+                  <p className="LearnMore">
+                    <label className="LearnFounder" htmlFor="anandaraj">
                       Learn More
                     </label>
                   </p>
@@ -782,50 +817,27 @@ class about extends Component {
           </div>
         </div>
 
-        <input className="modal-state" id="manish" type="checkbox" />
+        <input className="modal-state" id="dilip" type="checkbox" />
         <div className="modal">
-          <label className="modal__bg" htmlFor="manish"></label>
+          <label className="modal__bg" htmlFor="dilip"></label>
           <div className="modal__inner">
-            <label className="modal__close" htmlFor="manish"></label>
+            <label className="modal__close" htmlFor="dilip"></label>
             <div>
               <div className="gtco-container">
                 <div className="row">
                   <div className="col-md-8 col-md-offset-2 text-center gtco-heading topic">
-                    <h2> Manish Begrajka </h2>
+                    <h2> Dilip Kumar </h2>
                   </div>
                   <div className="row">
                     <div className="col-md-6 col-sm-6 text-center">
-                      <img src={manish} alt="" />
+                      <img src={dilip} alt="" />
                     </div>
                     <div className="col-md-6 col-sm-6">
                       <h3>
-                        Investment banker with over 16 years of rich experience
-                        in Corporate Finance, Private Equity, Investment
-                        Banking, M&#38;A, Strategy &#38; Consulting, Global
-                        Business Management and International Taxation including
-                        working with Big 4 consulting firm Ernst &#38; Young.
+                        3 GW Solar PV Assets.
                         <br />
-                        An entrepreneur and angel investor who is passionate
-                        about Renewable Energy, Cleantech, Agritech and Fintech.
-                        Supports companies and programs that empowers the
-                        greater start-up community and future generations of
-                        entrepreneurs.
+                        Ex SMA Ag Standford Alumini.
                         <br />
-                        Developed strong relationships at strategic levels and
-                        enjoys special relationships and confidence of corporate
-                        and political leaders in India, Far East, Africa &#38;
-                        Middle East.
-                        <br />
-                        Solid renewable energy development experience in India,
-                        Africa, South East Asia and Middle East with exposure of
-                        more than 1000 MW+ under IPP Business in Utility scale/
-                        Rooftop Solar/Battery Storage and Corporate / C&#38;I
-                        PPAs.
-                        <br />
-                        Over last 6 years negotiated and executed bankable PPA,
-                        IA, TA with Ministry / Regulators and developed robust
-                        solar project portfolio from origination to financial
-                        closure to commissioning of solar projects.
                       </h3>
                     </div>
                   </div>
@@ -852,7 +864,7 @@ class about extends Component {
                     </div>
                     <div className="col-md-6 col-sm-6">
                       <h3>
-                        Comes from background of Private Equity, Investment
+                        {/* Comes from background of Private Equity, Investment
                         Banking, Corporate Finance and Planning and Strategy in
                         Global Business Management with 16 years of rich
                         experience.
@@ -879,7 +891,14 @@ class about extends Component {
                         Over last 6 years negotiated and executed bankable PPA,
                         IA, TA with Ministry / Regulators and developed robust
                         solar project portfolio from origination to financial
-                        closure to commissioning of solar projects.
+                        closure to commissioning of solar projects. */}
+                        Bhadra Kanaiya is an entrepreneur and investor in climate and green energy space, and Global CEO and board member of Sunstream Green, a $125 million platform backed by Singapore based investors with projects and development in India, Africa and Oman.
+                        <br /> 
+                        Prior to this, Bhadra has been in leadership roles at Planet One Group, a $3 bn conglomerate based in London and UAE and earlier in Investment Banking space with London based Euromax Capital and has been a key member in executing $1bn+ transactions.
+                        <br />
+                        Bhadra is a frequent speaker at energy transition and net zero climate conferences including COP27 (Egypt), COP28 (UAE), Earthna Summit (Qatar).
+                        <br />
+                        Bhadra is a qualified Chartered Financial Analyst (CFA) from CFA Institute, USA and All India Rank holder in CS from ICSI, India.
                       </h3>
                     </div>
                   </div>
@@ -942,6 +961,158 @@ class about extends Component {
           </div>
         </div>
 
+        <input className="modal-state" id="bhadra" type="checkbox" />
+        <div className="modal">
+          <label className="modal__bg" htmlFor="bhadra"></label>
+          <div className="modal__inner">
+            <label className="modal__close" htmlFor="bhadra"></label>
+            <div>
+              <div className="gtco-container">
+                <div className="row">
+                  <div className="col-md-8 col-md-offset-2 text-center gtco-heading topic">
+                    <h2> Bhadra Kanaiya </h2>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-sm-6 text-center">
+                      <img src={bhadra} alt="" />
+                    </div>
+                    <div className="col-md-6 col-sm-6">
+                      <h3>
+                        {/* Comes from background of Private Equity, Investment
+                        Banking, Corporate Finance and Planning and Strategy in
+                        Global Business Management with 16 years of rich
+                        experience.
+                        <br />
+                        Has specialized into Business Finance and Global
+                        Institution Banking over the years. He is a innovative
+                        thinker and a self–driven professional with immense
+                        experience and demonstrative business acumen, qualified
+                        - Chartered Financial Analyst, CFA, Charlottesville,
+                        USA.
+                        <br />
+                        An entrepreneur with enthusiast about the emerging
+                        technologies and their cutting edge application in the
+                        field of Renewable Energy, Cleantech, Digital
+                        Agriculture. Supports companies and programs that
+                        empowers the greater start-up community and future
+                        generations of entrepreneurs.
+                        <br />
+                        Solid renewable energy development experience in India,
+                        Africa, South East Asia and Middle East with exposure of
+                        more than 1000 MW+ under IPP Business in Utility scale/
+                        Rooftop Solar/Battery Storage and Corporate / CnI PPAs.
+                        <br />
+                        Over last 6 years negotiated and executed bankable PPA,
+                        IA, TA with Ministry / Regulators and developed robust
+                        solar project portfolio from origination to financial
+                        closure to commissioning of solar projects. */}
+                        Bhadra Kanaiya is an entrepreneur and investor in climate and green energy space, and Global CEO and board member of Sunstream Green, a $125 million platform backed by Singapore based investors with projects and development in India, Africa and Oman.
+                        <br />
+                        Prior to this, Bhadra has been in leadership roles at Planet One Group, a $3 bn conglomerate based in London and UAE and earlier in Investment Banking space with London based Euromax Capital and has been a key member in executing $1bn+ transactions.
+                        <br />
+                        Bhadra is a frequent speaker at energy transition and net zero climate conferences including COP27 (Egypt), COP28 (UAE), Earthna Summit (Qatar).
+                        <br />
+                        Bhadra is a qualified Chartered Financial Analyst (CFA) from CFA Institute, USA and All India Rank holder in CS from ICSI, India.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input className="modal-state" id="murugan" type="checkbox" />
+        <div className="modal">
+          <label className="modal__bg" htmlFor="murugan"></label>
+          <div className="modal__inner">
+            <label className="modal__close" htmlFor="murugan"></label>
+            <div>
+              <div className="gtco-container">
+                <div className="row">
+                  <div className="col-md-8 col-md-offset-2 text-center gtco-heading topic">
+                    <h2> Murugan Sankaran </h2>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-sm-6 text-center">
+                      <img src={murugan} alt="" />
+                    </div>
+                    <div className="col-md-6 col-sm-6">
+                      <h3>
+                        Over 35+ years of experience in financial services sector, includes 27 years in the banking industry, Ex-ICICI, Ex-IL&FS.
+                        <br />
+                        Specialized in project structuring and management for Boot & PPP models across sectors covering MENA & India.
+                        <br />
+                        Successfully raised capital over USD 2.5 billion.
+                        <br />
+                        Capabilities and skill sets include Debt syndication, M&A advisory, private equity fundraising and project advisory.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input className="modal-state" id="vikram" type="checkbox" />
+        <div className="modal">
+          <label className="modal__bg" htmlFor="vikram"></label>
+          <div className="modal__inner">
+            <label className="modal__close" htmlFor="vikram"></label>
+            <div>
+              <div className="gtco-container">
+                <div className="row">
+                  <div className="col-md-8 col-md-offset-2 text-center gtco-heading topic">
+                    <h2> Vikram Shetty </h2>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-sm-6 text-center">
+                      <img src={vikram} alt="" />
+                    </div>
+                    <div className="col-md-6 col-sm-6">
+                      <h3>
+                        20+years of experience in Solar PV
+                        <br />
+                        Global experience
+                        <br />
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input className="modal-state" id="anandaraj" type="checkbox" />
+        <div className="modal">
+          <label className="modal__bg" htmlFor="anandaraj"></label>
+          <div className="modal__inner">
+            <label className="modal__close" htmlFor="anandaraj"></label>
+            <div>
+              <div className="gtco-container">
+                <div className="row">
+                  <div className="col-md-8 col-md-offset-2 text-center gtco-heading topic">
+                    <h2> Anandaraj </h2>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-sm-6 text-center">
+                      <img src={anandaraj} alt="" />
+                    </div>
+                    <div className="col-md-6 col-sm-6">
+                      <h3>
+                        ~1.5GW Asset Management                        
+                        <br />
+                        MIT, Sloan Alumini                        
+                        <br />
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     );
