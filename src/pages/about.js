@@ -11,6 +11,11 @@ import subodh from "../images/subodh.jpg";
 import anil from "../images/anil.jpeg";
 import tim from "../images/tim.jpeg";
 import "./about.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faToolbox } from "@fortawesome/free-solid-svg-icons";
+import { faPiggyBank } from "@fortawesome/free-solid-svg-icons";
+import { faShuttleVan } from "@fortawesome/free-solid-svg-icons";
+import { faTasks } from "@fortawesome/free-solid-svg-icons";
 
 class about extends Component {
   render() {
@@ -247,7 +252,8 @@ class about extends Component {
               <div className="col-md-3 col-sm-6 col-xs-12">
                 <div className="service-item">
                   <span className="icon">
-                    <i className="fas fa-toolbox" />
+                    {/* <i className="fas fa-toolbox" /> */}
+                    <FontAwesomeIcon icon={faToolbox} color="#FFF" size="2x"/>
                   </span>
                   <h4>Development</h4>
                   <div className="line-dec"></div>
@@ -270,7 +276,8 @@ class about extends Component {
               <div className="col-md-3 col-sm-6 col-xs-12">
                 <div className="service-item">
                   <span className="icon">
-                    <i className="fas fa-piggy-bank" />
+                    {/* <i className="fas fa-piggy-bank" /> */}
+                    <FontAwesomeIcon icon={faPiggyBank} color="#FFF" size="2x"/>
                   </span>
                   <h4>Finance and Capital</h4>
                   <div className="line-dec"></div>
@@ -293,7 +300,8 @@ class about extends Component {
               <div className="col-md-3 col-sm-6 col-xs-12">
                 <div className="service-item">
                   <span className="icon">
-                    <i className="fas fa-shuttle-van" />
+                    {/* <i className="fas fa-shuttle-van" /> */}
+                    <FontAwesomeIcon icon={faShuttleVan} color="#FFF" size="2x"/>
                   </span>
                   <h4>EPC</h4>
                   <div className="line-dec"></div>
@@ -315,7 +323,8 @@ class about extends Component {
               <div className="col-md-3 col-sm-6 col-xs-12">
                 <div className="service-item">
                   <span className="icon">
-                    <i className="fas fa-tasks" />
+                    {/* <i className="fas fa-tasks" /> */}
+                    <FontAwesomeIcon icon={faTasks} color="#FFF" size="2x"/>
                   </span>
                   <h4>Asset Management Services</h4>
                   <div className="line-dec"></div>
