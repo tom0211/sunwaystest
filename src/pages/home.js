@@ -102,15 +102,7 @@ class home extends Component {
                   style={{ padding: "25px" }}
                   className="col-md-6 col-xs-12 info"
                 >
-                  Sunways Global is a Renewable Energy Development company
-                  focused on Renewable Energy development in India, South East
-                  Asia and Middle East. Sunways, headquartered in the United
-                  Kingdom with its offices in London, Mumbai, New Delhi and
-                  Dubai. Sunways Global specialized in renewable development
-                  platform for Utility Scale decentralised and distributed solar
-                  PV Projects, Commercial and Industrial Rooftop, Floating Solar
-                  and Storage projects with focused approach to generate value
-                  to Stakeholders in the United Kingdom.
+                  Sunways Global is a Renewable Energy Development company focused on Renewable Energy development in India. Sunways, headquartered in the United Kingdom with its offices in London, Mumbai, New Delhi and Dubai. Sunways Global, currently developing 1GW+ renewable energy projects and specialized in Utility Scale decentralised and distributed solar PV Projects, Commercial and Industrial Rooftop, Hybrid, FDRE, Floating Solar and Storage projects with focused approach to generate value to Stakeholders in the United Kingdom.
                 </div>
               </div>
               <div className="homeBox row animate-box aboutus">
@@ -126,13 +118,7 @@ class home extends Component {
                   style={{ padding: "25px" }}
                   className="col-md-6 col-md-pull-6 col-xs-12 info"
                 >
-                  The team is drawn from the Global Finance, Renewable Energy
-                  and Investment banking industry. Sunways has a current strong
-                  project portfolio of 100 MW+ under development and 200 MW+
-                  under pipeline having PPA with High credit utilities and
-                  C&#38;I customers. Sunways Global specializes in origination,
-                  technical and commercials evaluation, approvals, turnkey
-                  solution/end to end solar project development/life cycle.
+                  The team is drawn from the Global Finance, Renewable Energy and Investment banking industry. Sunways has a current portfolio of 250MW+ and 750 MW+ under pipeline having PPA with High credit utilities and C&I customers. Sunways Global specializes in origination, technical and commercials evaluation, approvals, turnkey solution/end to end solar project development/life cycle.
                 </div>
               </div>
 
@@ -149,16 +135,7 @@ class home extends Component {
                   style={{ padding: "25px" }}
                   className="col-md-6 col-xs-12 info"
                 >
-                  Sunways invests and builds renewable energy assets more
-                  especially solar projects and delivers “End to End” solar
-                  projects across the value chain and has on-ground operations
-                  with expertise to execute and run the renewable projects.
-                  Sunways focus on thesis-driven renewable energy investments
-                  across continents, more specifically decentralised and
-                  distributed energy projects. The Company objective is to
-                  invest and participate in the fast-growing regions with aim to
-                  accelerate the energy transitions and support growing energy
-                  demand of the regions at a reasonable rate.
+                  Sunways invests and builds renewable energy assets more especially solar projects and delivers “End to End” solar projects across the value chain and has on-ground operations with expertise to execute and run the renewable projects. Sunways focus on thesis-driven renewable energy investments across continents, more specifically decentralised and distributed energy projects. The Company objective is to invest and participate in the fast-growing regions with aim to accelerate the energy transitions and support growing energy demand of the regions at a reasonable rate.
                 </div>
               </div>
             </div>
